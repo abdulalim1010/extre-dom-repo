@@ -1,4 +1,21 @@
+//scop ,global ,local
+const name = "jhon"
+//function scope
 
-console.log(10 == "10")
-var name = "alim"
-console.log(name)
+function add() {
+  var age = 20;
+  co
+}
+
+//block scope
+const isStudent = true;
+function modifyStudent(ans) {
+  let courseAcess = true;
+  if(ans)
+  {
+    const suppertsecttoin = "available";
+    console.log(courseAcess,suppertsecttoin)
+  }
+  console.log(suppertsecttoin)
+}
+modifyStudent(isStudent)
